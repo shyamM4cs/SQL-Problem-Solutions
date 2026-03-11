@@ -3,4 +3,4 @@ Topics Covered
 - LEFT JOIN
 - RIGHT JOIN
 - FULL JOIN
-- SELF JOIN
+- SELF JOIN 
