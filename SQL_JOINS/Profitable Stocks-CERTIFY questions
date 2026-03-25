@@ -1,0 +1,6 @@
+SELECT pt.stock_code
+FROM price_today pt
+JOIN price_tomorrow tm
+ON pt.stock_code = tm.stock_code
+WHERE tm.price > pt.price
+ORDER BY pt.stock_code;
